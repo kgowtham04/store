@@ -1,0 +1,132 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  
+}
+
+body {
+    background-color: grey;
+ 
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 450px;
+    background-color: azure;
+    width: 350px;
+    height: 400px;
+    padding-top: 70px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form {
+    padding: 5px;
+    margin: 5px;
+}
+
+label {
+    color: black;
+    margin: 15px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+p {
+    color: red;
+    font-size: 0.9rem;
+}
+.loading{
+    font-size: 25px;
+    color: green;
+}
+.title{
+    color: green;
+}
+table{
+    border-collapse: collapse
+}
+th,
+td {
+    border: 3px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    color: darkgreen
+}
+tr:nth-child(even) {
+    background-color: #dddd;
+}
+
+li{
+    list-style-type: none;
+}
+.page{
+ margin-top: 50px;
+}
+.page a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.page a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: green;
+}
+/* 
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 3px solid black;
+    text-align: center;
+    padding: 7px;
+}
+
+th {
+    color: darkgreen
+}
+
+tr:nth-child(even) {
+    background-color: #dddd;
+}
+
+.page {
+    margin-top: 10px;
+    display: flex;
+}
+
+.page a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.page a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: green;
+} */
